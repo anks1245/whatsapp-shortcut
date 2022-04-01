@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("alexander-shatov-_qsuER9xYOY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin: 0;
+    padding: 10px;
+    
+}
+.web_logo{
+    width: 240px;
+    border: white 1px solid;
+}
+.container{
+    margin: 50px auto;
+    width: 68%;
+    padding: 20px;
+    background-color: rgba(245, 245, 245, 0.857);
+    padding: 10px;
+    vertical-align: middle;
+}
+header{
+    background-color: green;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+nav{
+    /* margin-left: 20px; */
+    
+    width: auto;
+    align-items: center;
+}
+nav ul{
+    margin: 0;
+    display: inline-flex;
+    
+}
+nav ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover{
+    background-color: rgba(255, 255, 255, 0.102);
+}
+.web_topic{
+    font-family: 'Original Surfer', cursive;
+}
+.mob{
+    font-family: 'Freckle Face', cursive;
+    font-size: 36px;
+    color: green;
+}
+.inmob{
+    font-family: 'Original Surfer', cursive;
+    font-size: 24px;
+}
+.submit_button{
+    background-color: green;
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    margin: 50px;
+}
+.info_con{
+    width: 60%;
+    margin: 0px auto;
+}
+.ad{
+    width: 60%;
+    margin: 50px auto;
+    background-image: url('5172658.jpg');
+    color: white;
+    padding: 50px;
+}
+.adp{
+    font-size: 18px;
+}
+.adinput{
+    font-size: 20px;
+    font-family: 'Original Surfer', cursive;
+    width: 250px;
+}
+.adbutton{
+    background-color: rgb(255, 132, 0);
+    font-size: 18px;
+    width: 260px;
+    margin-top: 50px;
+    padding: 10px;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-weight: 500;
+}
+.ad2{
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+}
+.ad2Button{
+    width: 90%;
+    padding: 10px;
+    background-color: rgb(255, 132, 0);
+    margin: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+}
+footer{
+    background-color: green;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    
+    h1{
+        margin: 0;
+        padding: 10px;
+        
+    }
+    .web_logo{
+        width: 240px;
+        border: white 1px solid;
+    }
+    .container{
+        margin: 50px auto;
+        width: 90%;
+        padding: 20px;
+        background-color: rgba(245, 245, 245, 0.857);
+        padding: 10px;
+        vertical-align: middle;
+    }
+    header{
+        background-color: green;
+        color: white;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    nav{
+        /* margin-left: 20px; */
+        visibility: hidden;
+        width: auto;
+        align-items: center;
+    }
+    nav ul{
+        margin: 0;
+        display: inline-flex;
+        
+    }
+    nav ul li{
+        text-decoration: none;
+        list-style: none;
+        padding: 10px;
+        text-align: center;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li:hover{
+        background-color: rgba(255, 255, 255, 0.102);
+    }
+    .web_topic{
+        font-family: 'Original Surfer', cursive;
+    }
+    .mob{
+        font-family: 'Freckle Face', cursive;
+        font-size: 36px;
+        color: green;
+    }
+    .inmob{
+        font-family: 'Original Surfer', cursive;
+        font-size: 24px;
+    }
+    .submit_button{
+        background-color: green;
+        width: 200px;
+        padding: 10px;
+        font-size: 20px;
+        color: white;
+        font-family: 'Shadows Into Light', cursive;
+        margin: 50px;
+    }
+    .info_con{
+        width: 80%;
+        margin: 0px auto;
+    }
+    .ad{
+        width: 80%;
+        margin: 50px auto;
+        background-image: url('5172658.jpg');
+        color: white;
+        padding: 20px;
+    }
+    .adinput{
+        font-size: 20px;
+        font-family: 'Original Surfer', cursive;
+        width: 250px;
+    }
+    .adbutton{
+        background-color: rgb(255, 132, 0);
+        font-size: 18px;
+        width: 240px;
+        font-family: 'Shadows Into Light', cursive;
+        color: white;
+        font-weight: 500;
+        margin-top: 50px;
+    }
+    .ad2{
+        width: 80%;
+        margin: 0px auto;
+        padding: 20px;
+    }
+    .ad2Button{
+        width: 90%;
+        padding: 10px;
+        background-color: rgb(255, 132, 0);
+        margin: 20px;
+        font-family: 'Shadows Into Light', cursive;
+        color: white;
+    }
+}
